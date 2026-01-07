@@ -16,7 +16,7 @@ plain_text = input("Enter plain text: ")
 cipher_text = ""
 for ch in plain_text:
     index = chars.index(ch)
-    cipher_text += key[index]   
+    cipher_text += key[index]
 print(f"Cipher Text: {cipher_text}")
 
 
